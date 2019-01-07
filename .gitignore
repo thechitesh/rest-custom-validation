@@ -9,7 +9,7 @@ commit.template
 **/bin
 
 **/target
-
+**/.idea
 **/javadocs
 
 .project
