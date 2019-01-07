@@ -26,8 +26,6 @@ public class GreetingController {
 
     @PostMapping("/greeting")
     public ResponseEntity postGreets(@RequestBody @Valid Wrapper greeting){
-
-
         return ResponseEntity.ok("Done");
     }
 
